@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      body {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        background-repeat:no-repeat;
+        background-size: 100% 50%;
+         height: 100vh;
+        
+          
+      }
+      .container {
+        height: 697px;
+        width: 450px;
+        margin-top: 102px;
+        border-radius: 20px;
+        background-color: white;
+      }
+      .hero {
+        height: 220px;
+        width: 450px;
+        border-radius: 20px;
+      }
+      .ordertext {
+        height: 37px;
+        width: 354px;
+        padding: 30px;
+        margin-left: 80px;
+        margin-top: px;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 37px;
+        color: #1f2e55;
+        display: flex;
+        text-align: center;
+      }
+      .secondtext {
+        height: 78px;
+        width: 354px;
+        margin-left: 48px;
+        top: 319px;
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        display: flex;
+        text-align: center;
+        color: #717fa6;
+      }
+      .priceannualplan{
+        display:flex;
+        align-content: center;
+        height: 98px;
+        width: 354px;
+        margin-left: 48px;
+        margin-top: 20px;
+        border-radius: 11px;
+        background-color:  #F7F9FF;
+      }
+      .Micon{
+       height: 48px;
+       width: 48px;
+       left: 0px;
+       top: 0px;
+       border-radius: 0px;
+       padding: 24px;
+      }
+      .Anpl{
+        display: inline-block;
+        height: 21px;
+        width: 117.19047546386719px;
+        margin-top: 25px;
+        font-family: "Red Hat Display", sans-serif;
+        color: #1F2E55;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .price{
+        display: inline-block;
+        height: 21px;
+        width: 92px;
+        margin-top: 50px;
+        margin-left: -118px;
+        font-family: "Red Hat Display", sans-serif;
+        color: #717FA6;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0px;
+      }
+      .changetext{
+        display: inline-block;
+        height: 19px;
+        width: 52px;
+        margin-left: 80px;
+        margin-top: 40px;
+        font-family: "Red Hat Display", sans-serif;
+        color:  #382AE1;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      .procesbutton{
+        position: absolute;
+        height: 50px;
+        width: 354px;
+        margin-left: 1px;
+        margin-top: 132px;
+        border-radius: 11px;
+        background-color: #382AE1;
+        box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+      }
+     .procestext{
+       position: absolute;
+       width:150px;
+       height: 20px;
+       margin-top:15px;
+       margin-left:102px;
+       font-family: "Red Hat Display", sans-serif;
+       color: #FFFFFF;
+       font-size: 15px;
+       font-weight: 600;
+       line-height: 20px;
+       letter-spacing: 0px;
+       text-align: center;           
+     }
+    .cancel{
+      display:flex;
+      box-sizing: border-box;
+      height: 20px;
+      margin-left:130px;
+      margin-top:100px;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 20px;
+      font-family: "Red Hat Display", sans-serif;
+      color: #717FA6; 
+    }
+    
+     .cancel:hover{
+       color: #1F2E55;
+     } 
+     .changetext:hover{
+       color:#766CF1;
+     }
+     .procesbutton:hover{
+       background-color: #766CF1;
+       box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+       
+     } 
+    </style>
+  </head>
+  <body>
+     
+    <div class="container">
+      <img src="/Music_Flatlinehero.svg" class="hero" />
+      <a class="ordertext"> Order Summary</a>
+      <a class="secondtext"
+        >You can now listen to millions of songs, audiobooks, and podcasts on
+        any device anywhere you like!</a>
+
+        <div class="priceannualplan"><img src="/icon-music.svg" class="Micon">
+        <a class="Anpl">Annual plan</a>
+        <a class="price">$59.99/year</a>
+        <a class="changetext">Change</a       
+        </div> 
+        <div class="procesbutton">
+          <a class="procestext">Proceed to Payment</a>
+          <a class="cancel">Cancel Order</a>
+        </div>    
+      </div>
+    </div>
+  </body>
+</html>
